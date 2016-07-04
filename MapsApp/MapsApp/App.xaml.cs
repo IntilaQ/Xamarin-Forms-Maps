@@ -23,7 +23,6 @@ namespace MapsApp
         protected override async void OnStart()
         {
             // Handle when your app starts
-
             var foursquareViewModel = new FoursquareViewModel();
 
             await foursquareViewModel.InitDataAsync();
